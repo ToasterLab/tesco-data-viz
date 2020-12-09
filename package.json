@@ -1,0 +1,32 @@
+{
+  "name": "tesco-data-viz",
+  "version": "1.0.0",
+  "description": "visualise your Tesco (clubcard) data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hueyy/tesco-data-viz.git"
+  },
+  "keywords": [
+    "tesco",
+    "clubcard",
+    "visualise"
+  ],
+  "author": "Huey <hello@huey.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hueyy/tesco-data-viz/issues"
+  },
+  "homepage": "https://github.com/hueyy/tesco-data-viz#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0"
+  }
+}
